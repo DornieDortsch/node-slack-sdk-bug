@@ -1,0 +1,21 @@
+{
+  "name": "slack-sdk-bug",
+  "version": "1.0.0",
+  "description": "Sample Project to report Proxy Bug",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/DornieDortsch/node-slack-sdk-bug.git"
+  },
+  "dependencies": {
+    "@slack/client": "^4.8.0",
+    "dotenv": "^6.2.0",
+    "https-proxy-agent": "^2.2.1"
+  }
+}
