@@ -1,6 +1,9 @@
 const HttpsProxyAgent = require('https-proxy-agent');
 const { RTMClient } = require('@slack/client');
 
+process.env['https_proxy'] = ''
+process.env['HTTPS_PROXY'] = ''
+
 require('dotenv').config()
 
 const options = {
